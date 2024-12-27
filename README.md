@@ -1,6 +1,6 @@
 # TMU 圖書館論文爬蟲工具
 
-這是一個用於爬取臺北醫學大學機構典藏系統（http://libir.tmu.edu.tw）論文資料的工具。包含兩個主要程式：
+這是一個用於爬取臺北醫學大學機構典藏系統 （http://libir.tmu.edu.tw） 論文資料的工具。包含兩個主要程式：
 - `IR_find_notype.py`: 搜尋不包含特定文字的論文
 - `IR_find_hiden.py`: 搜尋包含特定文字的論文
 本工具使用 `requests` 和 `BeautifulSoup` 進行網頁爬蟲，並將結果儲存到 CSV 檔案中。
